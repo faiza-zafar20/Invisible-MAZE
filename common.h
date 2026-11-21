@@ -9,7 +9,7 @@ extern int playerCol;
 extern int moves;
 //bazil's functions 
 void initializeMaze();
-void revealCells(int r, int c);
+void revealCells(void);
 void displayMaze();
 //Aleeha's functions 
 int movePlayer(char input);

@@ -25,14 +25,13 @@ void startGame(){
     moves = 0;
     //initialize maze (Bazil's fuction)
     initializeMaze();
-    revealCells(playerRow, playerCol);
+    revealCells();
     while (1) {
         displayMaze();
-        system("cls ||clear"); // Clear the console for better visibility
         printf("Enter your move (W/A/S/D): ");
         scanf(" %c", &input);
         if (movePlayer(input)) {
-            revealCells(playerRow, playerCol);}
+            revealCells();}
             if (checkWin()) {
                 printf("Congratulations! You've found the exit in %d moves!\n", moves);
                 printf("Press any key to return to the menu.\n");

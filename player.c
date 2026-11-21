@@ -1,6 +1,9 @@
 #include<stdio.h>
 #include "player.h"
-void movePlayer(char direction)
+int playerRow = 1;
+int playerCol = 1;
+int moves = 0;
+int movePlayer(char direction)
 {
 	int newRow=playerRow;
 	int newCol=playerCol;
@@ -19,7 +22,7 @@ void movePlayer(char direction)
 			newCol--;
 			break;
 		case 'D':
-		case 'd';
+		case 'd':
 			newCol++;
 			break;
 		default:

@@ -40,7 +40,6 @@ Playing the game is simple:
 We are using the following tools and technologies to develop this project:
 
 - C Programming Language
-- Raylib for graphics
 - Visual Studio Code
 - GitHub for sharing and managing our code
 
@@ -66,15 +65,6 @@ This project is being developed together as a group.
 
 Through this project, we want to improve our understanding of C programming by using concepts such as arrays, functions, loops, conditions and header files in an actual game.
 
-## Future Plans
-
-If we get time, we would also like to add more features, such as:
-
-- More maze levels.
-- Different difficulty settings.
-- A timer and scoring system.
-- Sound effects.
-- Improvements to the game interface.
 
 ---
 
